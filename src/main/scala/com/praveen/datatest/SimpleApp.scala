@@ -1,4 +1,4 @@
-package com.mcafee.datatest
+package com.praveen.datatest
 
 import org.apache.spark.sql.SparkSession
 
