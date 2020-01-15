@@ -16,6 +16,7 @@ class StackSpec extends FlatSpec {
 
   it should "throw NoSuchElementException if an empty stack is popped" in {
     val emptyStack = new Stack[String]
+    val obj = new houses()
     assertThrows[NoSuchElementException] {
       emptyStack.pop()
     }
